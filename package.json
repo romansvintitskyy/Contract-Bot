@@ -10,6 +10,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "@adobe/react-spectrum": "^3.24.1",
     "bootstrap-chat": "^2.0.2",
     "mephisto-task": "^2.0.4",
     "react": "^18.2.0",
