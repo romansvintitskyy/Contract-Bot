@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from './logo.svg';
+// import adobe-logo from './adobe-logo.png';
 import './App.css';
 
 const App = () => {
@@ -7,36 +7,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button onClick={() => setCount(count => count + 2)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test hot module replacement (HMR).
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
+      <header>
+        <img src={'./src/adobe-logo.png'} className="App-logo" alt="logo" />
+        <h1 className="App-logo">Adobe ContractBot</h1>
       </header>
     </div>
   );
