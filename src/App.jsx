@@ -11,7 +11,15 @@ const App = () => {
         <img src={'./src/adobe-logo.png'} className="App-logo" alt="logo" />
         <h1 className="App-logo">Adobe ContractBot</h1>
       </header>
+
+      <div id="drop-area">
+      <form class="my-form">
+        <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)" />
+        <label class="drop-button" for="fileElem">Drop your contract here!</label>
+      </form>
+      </div>
     </div>
+ 
   );
 };
 
