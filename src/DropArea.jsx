@@ -5,9 +5,9 @@ const DropArea = () => {
 
   return (
     <div id="drop-area">
-      <form class="my-form">
-        <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)" />
-        <label class="drop-button" for="fileElem">Drop your contract here!</label>
+      <form className="my-form">
+        <input type="file" id="fileElem" multiple accept="image/*" onChange="handleFiles(this.files)" />
+        <label className="drop-button" htmlFor="fileElem">Drop your contract here!</label>
       </form>
     </div>
   )
