@@ -3,7 +3,6 @@ import './App.css';
 import Chatbot from './Chatbot';
 import './DropArea.jsx'
 import DropArea from './DropArea.jsx';
-import { Button, defaultTheme, Provider } from '@adobe/react-spectrum';
 const App = () => {
   const [count, setCount] = useState(0);
 
@@ -15,14 +14,7 @@ const App = () => {
       </header>
       <DropArea />
       <Chatbot />
-      <Provider theme={defaultTheme}>
-        <Button
-          variant="accent"
-          onPress={() => alert('Hey there!')}
-        >
-          Hello React Spectrum!
-        </Button>
-      </Provider>
+      
 
 
     </div>
