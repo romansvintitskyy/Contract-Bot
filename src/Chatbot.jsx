@@ -31,7 +31,7 @@ const Chatbot = () => {
       body: JSON.stringify({
         'prompt': currentText,
         'temperature': 0.7,
-        'max_tokens': 15,
+        'max_tokens': 150,
         'top_p': 1,
         'frequency_penalty': 0,
         'presence_penalty': 0.5,
