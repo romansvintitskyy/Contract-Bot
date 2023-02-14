@@ -14,7 +14,7 @@ const App = () => {
       </header>
       <DropArea />
       <Chatbot />
-      
+
 
 
     </div>
